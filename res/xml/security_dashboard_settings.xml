@@ -108,6 +108,12 @@
             android:summary="@string/show_password_summary"
             settings:controller="com.android.settings.security.ShowPasswordPreferenceController"/>
 
+        <SwitchPreference
+            android:key="scramble_pin_layout"
+            android:title="@string/scramble_pin_layout"
+            android:summary="@string/scramble_pin_layout_summary"
+            settings:controller="com.android.settings.security.ScramblePinLayoutPreferenceController"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory

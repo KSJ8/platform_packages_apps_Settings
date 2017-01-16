@@ -147,6 +147,8 @@
     <!-- Whether show_password should be shown or not. -->
     <bool name="config_show_show_password">true</bool>
 
+    <bool name="config_show_scramble_pin_layout">true</bool>
+
     <!-- Whether trust_agent_click_intent should be shown or not. -->
     <bool name="config_show_trust_agent_click_intent">true</bool>
 
